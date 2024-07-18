@@ -18,3 +18,6 @@ function arkada_scripts() {
 	wp_enqueue_script( 'jq-scripts', get_template_directory_uri() . 'assets/js/jq-scripts.js', array('jquery'), null, true);
 	wp_enqueue_script( 'scripts', get_template_directory_uri() . 'assets/js/scripts.js', array('jquery'), null, true);
 } 
+
+
+add_theme_support('custom-logo');
